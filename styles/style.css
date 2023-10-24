@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     padding: 0;
     margin: 0;
@@ -18,10 +18,7 @@
 .nav-link:hover {
     color: greenyellow;
 }
-=======
-.container-fluid {
-  /* background-image: url(../assets/Seamless\ Money\ Pattern\ On\ White\ Background\ Stock\ Vector\ \(Royalty\ Free\)\ 241682524\ _\ Shutterstock.jpg); */
-}
+
 h1 {
   color: black;
 }
@@ -45,4 +42,3 @@ h1 > span {
   --bs-btn-disabled-border-color: #f8f9fa;
   --bs-gradient: none;
 }
->>>>>>> 81f5b1bb726093f8884a4fa6a8486ae0c2ac057e
