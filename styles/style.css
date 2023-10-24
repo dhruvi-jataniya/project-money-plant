@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -17,3 +18,31 @@
 .nav-link:hover {
     color: greenyellow;
 }
+=======
+.container-fluid {
+  /* background-image: url(../assets/Seamless\ Money\ Pattern\ On\ White\ Background\ Stock\ Vector\ \(Royalty\ Free\)\ 241682524\ _\ Shutterstock.jpg); */
+}
+h1 {
+  color: black;
+}
+h1 > span {
+  color: rgb(58, 247, 58);
+}
+.btn-outline-light {
+  border: 1px solid greenyellow;
+  --bs-btn-color: greenyellow;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: greenyellow;
+  --bs-btn-hover-border-color: greenyellow;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f8f9fa;
+  --bs-btn-active-border-color: #f8f9fa;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #f8f9fa;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-gradient: none;
+}
+>>>>>>> 81f5b1bb726093f8884a4fa6a8486ae0c2ac057e
