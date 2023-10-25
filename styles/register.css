@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.logo {
+    padding-top: 12px !important;
+}
+
+.nav-link {
+    color: green;
+}
+
+.nav-link:hover {
+    color: greenyellow;
+}
+
+main{
+ min-width: 330px;
+ padding: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 95vh;
+ background-image: url(../assets/Screenshot\ 2023-10-25\ 072828.png);
+}
+
+form{
+    padding: 20px;
+    max-width: 330px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
