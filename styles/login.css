@@ -19,17 +19,19 @@
 }
 
 main{
+ min-width: 330px;
+ padding: 1rem;
  display: flex;
  justify-content: center;
  align-items: center;
- min-height: 80vh;
- /* background: rgb(33, 210, 65); */
+ height: 80vh;
  background-image: url(../assets/Seamless\ Money\ Pattern\ On\ White\ Background\ Stock\ Vector\ \(Royalty\ Free\)\ 241682524\ _\ Shutterstock.jpg);
- 
 }
+
 form{
     padding: 20px;
-    width: 25%;
+    min-width: 330px;
+    min-height: 330px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     backdrop-filter: blur(5px);
