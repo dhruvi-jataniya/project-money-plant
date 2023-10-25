@@ -17,10 +17,6 @@ body {
     background-color: gold;
 }
 
-.btn-success {
-    
-}
-
 /* Navbar */
 
 nav {
@@ -34,11 +30,16 @@ nav {
 }
 
 .nav-link {
-    color: darkslategrey;
+    color: darkslategrey !important;
+    font-weight: 600 !important;
 }
 
 .nav-link:hover {
-    color: lawngreen;
+    color: #ffc107 !important;
+}
+
+.active {
+    color: goldenrod !important;
 }
 
 /* Hero section */
@@ -66,12 +67,15 @@ nav {
 .big-feature-section .card {
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(1px);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
+    color: darkslategray !important;
 }
 
 .big-feature-section .card-title {
     letter-spacing: 1px;
+    font-size: 32px;
+    /* font-weight: 400; */
 }
 
 .big-feature-section .card-body p {
@@ -79,7 +83,7 @@ nav {
 }
 
 .big-feature-section h1 {
-    color: black;
+    color: whitesmoke;
     background-color: rgb(69, 185, 69);
     font-weight: 400;
     border-radius: 25px;
@@ -88,4 +92,58 @@ nav {
 
 .big-feature-section h1 span {
     color: yellow;
+}
+
+/* Features Section */
+
+.feature-section .card {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: darkslategray !important;
+}
+
+.feature-section .card-heading {
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.feature-section .card-body p {
+    letter-spacing: 0.3px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* CTA Section */
+
+.cta-section>.container {
+    color: black;
+    padding-block: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: #FBAB7E;
+    background-image: url(../assets/coins.png), linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cta-section .container p {
+    font-weight: 400 !important;
+}
+
+/* Footer */
+.footer-section {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3); */
+}
+
+@media screen and (max-width: 768px) {
+    .cta-section>.container {
+        background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
+    }
 }
