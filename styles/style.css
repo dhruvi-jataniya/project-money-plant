@@ -1,44 +1,91 @@
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    /* background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%); */
+    /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+    background-color: #85FFBD;
+    background-image: linear-gradient(90deg, #85FFBD 0%, #faf797 100%);
+
+}
+
+.btn-warning {
+    background-color: gold;
+}
+
+.btn-success {
+    
+}
+
 /* Navbar */
+
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
 
 .logo {
     padding-top: 12px !important;
 }
 
 .nav-link {
-    color: green;
+    color: darkslategrey;
 }
 
 .nav-link:hover {
-    color: greenyellow;
+    color: lawngreen;
 }
 
-h1 {
-  color: black;
+/* Hero section */
+
+.hero-section .btn-outline-light {
+    border: 1px solid greenyelbaclow;
+    --bs-btn-color: greenyellow;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: greenyellow;
+    --bs-btn-hover-border-color: greenyellow;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f8f9fa;
+    --bs-btn-active-border-color: #f8f9fa;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #f8f9fa;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
 }
-h1 > span {
-  color: rgb(58, 247, 58);
+
+/* Big-feature-section */
+
+.big-feature-section .card {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
 }
-.btn-outline-light {
-  border: 1px solid greenyellow;
-  --bs-btn-color: greenyellow;
-  --bs-btn-border-color: black;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: greenyellow;
-  --bs-btn-hover-border-color: greenyellow;
-  --bs-btn-focus-shadow-rgb: 248, 249, 250;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #f8f9fa;
-  --bs-btn-active-border-color: #f8f9fa;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #f8f9fa;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #f8f9fa;
-  --bs-gradient: none;
+
+.big-feature-section .card-title {
+    letter-spacing: 1px;
+}
+
+.big-feature-section .card-body p {
+    letter-spacing: 0.5px;
+}
+
+.big-feature-section h1 {
+    color: black;
+    background-color: rgb(69, 185, 69);
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 10px 8px;
+}
+
+.big-feature-section h1 span {
+    color: yellow;
 }
