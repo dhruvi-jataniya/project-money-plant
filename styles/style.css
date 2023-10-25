@@ -13,6 +13,11 @@ body {
 
 }
 
+button {
+    border: none !important;
+    font-weight: 500 !important;
+}
+
 .btn-warning {
     background-color: gold;
 }
@@ -102,6 +107,9 @@ nav {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     color: darkslategray !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature-section .card-heading {

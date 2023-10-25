@@ -4,18 +4,34 @@
     box-sizing: border-box;
 }
 
+button {
+    border: none !important;
+    font-weight: 500 !important;
+}
+
 /* Navbar */
+
+nav {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
 
 .logo {
     padding-top: 12px !important;
 }
 
 .nav-link {
-    color: green;
+    color: darkslategrey !important;
+    font-weight: 600 !important;
 }
 
 .nav-link:hover {
-    color: greenyellow;
+    color: #ffc107 !important;
+}
+
+.active {
+    color: goldenrod !important;
 }
 
 main {
@@ -23,8 +39,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 82px);
-    background-image: url(../assets/Seamless\ Money\ Pattern\ On\ White\ Background\ Stock\ Vector\ \(Royalty\ Free\)\ 241682524\ _\ Shutterstock.jpg);
+    height: 100vh;
+    background-image: url(../assets/Screenshot\ 2023-10-25\ 072828.png);
 }
 
 form {
@@ -52,11 +68,7 @@ form .hr {
 }
 
 form h2 {
-    color: darkgreen;
-}
-
-.form-control {
-    
+    color: goldenrod;
 }
 
 .form-floating {
