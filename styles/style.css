@@ -13,7 +13,7 @@ body {
 
 }
 
-button {
+.btn {
     border: none !important;
     font-weight: 500 !important;
 }
