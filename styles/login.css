@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.logo {
+    padding-top: 12px !important;
+}
+
+.nav-link {
+    color: green;
+}
+
+.nav-link:hover {
+    color: greenyellow;
+}
+
+main {
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 82px);
+    background-image: url(../assets/Seamless\ Money\ Pattern\ On\ White\ Background\ Stock\ Vector\ \(Royalty\ Free\)\ 241682524\ _\ Shutterstock.jpg);
+}
+
+form {
+    padding: 20px;
+    min-width: 330px;
+    min-height: 330px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-logo {
+    width: 150px;
+}
+
+form .hr {
+    width: 100%;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+form h2 {
+    color: darkgreen;
+}
+
+.form-control {
+    
+}
+
+.form-floating {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn-success {
+    background-color: rgb(31, 172, 31);
+}
