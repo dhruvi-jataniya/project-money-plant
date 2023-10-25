@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.logo {
+    padding-top: 12px !important;
+}
+
+.nav-link {
+    color: green;
+}
+
+.nav-link:hover {
+    color: greenyellow;
+}
+
+main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 80vh;
+ /* background: rgb(33, 210, 65); */
+ background-image: url(../assets/Seamless\ Money\ Pattern\ On\ White\ Background\ Stock\ Vector\ \(Royalty\ Free\)\ 241682524\ _\ Shutterstock.jpg);
+ 
+}
+form{
+    padding: 20px;
+    width: 25%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
