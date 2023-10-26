@@ -154,9 +154,7 @@ nav {
     /* box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3); */
 }
 
-.footer-flex {
-    
-}
+.footer-flex {}
 
 @media screen and (max-width: 768px) {
     .cta-section>.container {
@@ -165,6 +163,7 @@ nav {
 }
 
 @media screen and (max-width: 576px) {
+
     .container,
     .container-sm {
         max-width: 540px !important;
@@ -182,7 +181,7 @@ nav {
         align-items: center !important;
         flex-direction: column;
     }
-    
+
     .col ul {
         display: flex !important;
         justify-content: center !important;
