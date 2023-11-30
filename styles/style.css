@@ -31,8 +31,11 @@ nav {
     width: 100%;
     /* height: fit-content; */
     position: fixed !important;
-    z-index: 99999;
     padding-block: 12px !important;
+}
+
+nav>* {
+    z-index: 99999;
 }
 
 .nav-link {
