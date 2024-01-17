@@ -76,7 +76,45 @@ To get started with this project, follow these steps:
 
 ## 6. Contributing
 
-If you would like to contribute to this project, feel free to submit pull requests or report issues. Your contributions and suggestions are welcome.
+If you would like to contribute to this project, we welcome your contributions and suggestions. Please follow the guidelines below:
+
+1. Fork the repository by clicking on the "Fork" button at the top right corner of the repository page.
+
+2. Clone the forked repository to your local development environment using Git:
+
+   ```shell
+   git clone [https://github.com/your-username/project-money-plant]
+   ```
+
+3. Create a new branch for your changes:
+
+   ```shell
+   git checkout -b feature/your-feature-name
+   ```
+
+4. Make your desired changes to the codebase.
+
+5. Commit your changes with a descriptive commit message:
+
+   ```shell
+   git commit -m "Add your commit message here"
+   ```
+
+6. Push your changes to your forked repository:
+
+   ```shell
+   git push origin feature/your-feature-name
+   ```
+
+7. Open a pull request by navigating to the original repository and clicking on the "New pull request" button.
+
+8. Provide a clear and concise description of your changes in the pull request.
+
+9. Wait for the project maintainers to review your pull request. They may provide feedback or request further changes.
+
+10. Once your pull request is approved, your changes will be merged into the main project.
+
+We appreciate your contributions and thank you for helping improve the Money Plant website!
 
 ## 7. License
 
